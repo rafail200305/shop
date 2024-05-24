@@ -1,0 +1,81 @@
+.home-page {
+  padding-top: 3rem;
+  .image {
+    background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg");
+    width: 100vw;
+    height: 82vh;
+    background-size: cover;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80rem;
+    h1 {
+      font-size: 5rem;
+    }
+    button {
+      align-self: flex-start;
+      background-color: #7971ea;
+      padding: 10px 5px;
+    }
+  }
+  .all {
+    padding: 4rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .icon {
+      align-items: center;
+    }
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 15rem;
+    img {
+      width: 25rem;
+      gap: 10px;
+    }
+  }
+
+  .clon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+  }
+  .clon {
+    button {
+      background-color: #7971ea;
+      padding: 10px 35px;
+      color: white;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem;
+    }
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .footer {
+    padding: 5rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

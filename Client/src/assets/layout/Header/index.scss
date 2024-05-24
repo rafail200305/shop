@@ -1,0 +1,32 @@
+header {
+  .container {
+    padding: 2rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .icon {
+      align-items: center;
+      display: flex;
+      font-size: 20px;
+    }
+    .icon1 {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 20px;
+    }
+    .buy {
+      button {
+        font-size: 20px;
+      }
+    }
+  }
+  nav {
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
